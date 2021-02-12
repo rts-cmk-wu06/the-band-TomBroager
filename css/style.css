@@ -1,0 +1,122 @@
+/* skrifttype for hele dokumentet */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+#wrapper {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+/* utilities */
+
+.disp-flex-sp-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* typografi */
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 20px 0 0 0;
+}
+
+/* header style */
+
+header {
+  background-image: url(../img/banner.jpg);
+  height: 240px;
+}
+
+/* header navigation style */
+
+header nav {
+  width: 1184px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav img {
+  margin: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav li a {
+  margin-left: 50px;
+  color: black;
+}
+
+nav li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* main style */
+
+main {
+  width: 1184px;
+  margin: 0%auto;
+  padding: 48px 0;
+}
+
+article section {
+  width: 40%;
+}
+
+article figure {
+  width: 58%;
+  margin: 0;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+figure img {
+  width: 47%;
+  padding: 3% 0 0 3%;
+}
+
+.for-og-liveside-img {
+  flex: 1;
+}
+
+/* footer style */
+footer {
+  height: 80px;
+  background-image: url(../img/banner_footer.jpg);
+}
+
+footer div {
+  width: 1184px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+footer img {
+  margin-left: 32px;
+}
