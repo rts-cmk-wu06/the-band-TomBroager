@@ -95,13 +95,17 @@ article figure {
   flex-wrap: wrap;
 }
 
-figure img {
-  width: 47%;
-  padding: 3% 0 0 3%;
-}
-
 .for-og-liveside-img {
   flex: 1;
+}
+
+figure img {
+  width: 335px;
+  margin-top: 15px;
+}
+
+figure img:nth-child(-n+2) {
+  margin-top: 0;
 }
 
 /* footer style */
